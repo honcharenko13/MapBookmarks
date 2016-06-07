@@ -1,0 +1,769 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2A1A960811561BA78EE3E429 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B2621A848D2FAB01686F202 /* libPods.a */; };
+		821EE5831CA5270900DD21BD /* MBTableOfBookmarksViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 821EE5821CA5270900DD21BD /* MBTableOfBookmarksViewController.m */; };
+		823F38CD1CB139C30038D1AD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 823F38CB1CB139C30038D1AD /* Main.storyboard */; };
+		82C4468E1CA2D1200041E028 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 82C4468D1CA2D1200041E028 /* main.m */; };
+		82C446911CA2D1200041E028 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 82C446901CA2D1200041E028 /* AppDelegate.m */; };
+		82C4469A1CA2D1200041E028 /* MapBookmarks_iOS.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 82C446981CA2D1200041E028 /* MapBookmarks_iOS.xcdatamodeld */; };
+		82C4469C1CA2D1200041E028 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 82C4469B1CA2D1200041E028 /* Assets.xcassets */; };
+		82C4469F1CA2D1200041E028 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82C4469D1CA2D1200041E028 /* LaunchScreen.storyboard */; };
+		82C446AA1CA2D1200041E028 /* MapBookmarks_iOSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 82C446A91CA2D1200041E028 /* MapBookmarks_iOSTests.m */; };
+		82C446B51CA2D1200041E028 /* MapBookmarks_iOSUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 82C446B41CA2D1200041E028 /* MapBookmarks_iOSUITests.m */; };
+		82C446CC1CA2D99F0041E028 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82C446CB1CA2D99F0041E028 /* MapKit.framework */; };
+		82F05FFB1CA3E9B8000A7DED /* MBMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 82F05FFA1CA3E9B8000A7DED /* MBMainViewController.m */; };
+		82F060051CA3FFB3000A7DED /* MBBookmarksListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 82F060041CA3FFB3000A7DED /* MBBookmarksListViewController.m */; };
+		82F060081CA3FFD1000A7DED /* MBBookmarkDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 82F060071CA3FFD1000A7DED /* MBBookmarkDetailViewController.m */; };
+		82F0600D1CA402C5000A7DED /* Bookmark+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 82F0600A1CA402C5000A7DED /* Bookmark+CoreDataProperties.m */; };
+		82F0600E1CA402C5000A7DED /* Bookmark.m in Sources */ = {isa = PBXBuildFile; fileRef = 82F0600C1CA402C5000A7DED /* Bookmark.m */; };
+		82F060121CA42DF4000A7DED /* MBCustomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 82F060111CA42DF4000A7DED /* MBCustomCell.m */; };
+		82F060161CA44746000A7DED /* MBDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 82F060151CA44746000A7DED /* MBDataManager.m */; };
+		82F0601A1CA46020000A7DED /* MBParsedBookmark.m in Sources */ = {isa = PBXBuildFile; fileRef = 82F060191CA46020000A7DED /* MBParsedBookmark.m */; };
+		84ACD5651CA4A8DE00C3245A /* UIView+MBAnnotationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 84ACD5641CA4A8DE00C3245A /* UIView+MBAnnotationView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		82C446A61CA2D1200041E028 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 82C446811CA2D1200041E028 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 82C446881CA2D1200041E028;
+			remoteInfo = "MapBookmarks-iOS";
+		};
+		82C446B11CA2D1200041E028 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 82C446811CA2D1200041E028 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 82C446881CA2D1200041E028;
+			remoteInfo = "MapBookmarks-iOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3ECFCA91CC7EE3B988CCC500 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		43C5A67BDE7160CB4BD4832E /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		5B2621A848D2FAB01686F202 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		821EE5811CA5270900DD21BD /* MBTableOfBookmarksViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MBTableOfBookmarksViewController.h; path = ViewControllers/TableOfBookmarks/MBTableOfBookmarksViewController.h; sourceTree = "<group>"; };
+		821EE5821CA5270900DD21BD /* MBTableOfBookmarksViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MBTableOfBookmarksViewController.m; path = ViewControllers/TableOfBookmarks/MBTableOfBookmarksViewController.m; sourceTree = "<group>"; };
+		823F38CC1CB139C30038D1AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		82C446891CA2D1200041E028 /* MapBookmarks-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MapBookmarks-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		82C4468D1CA2D1200041E028 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		82C4468F1CA2D1200041E028 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		82C446901CA2D1200041E028 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		82C446991CA2D1200041E028 /* MapBookmarks_iOS.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MapBookmarks_iOS.xcdatamodel; sourceTree = "<group>"; };
+		82C4469B1CA2D1200041E028 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		82C4469E1CA2D1200041E028 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		82C446A01CA2D1200041E028 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		82C446A51CA2D1200041E028 /* MapBookmarks-iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MapBookmarks-iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		82C446A91CA2D1200041E028 /* MapBookmarks_iOSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MapBookmarks_iOSTests.m; sourceTree = "<group>"; };
+		82C446AB1CA2D1200041E028 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		82C446B01CA2D1200041E028 /* MapBookmarks-iOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MapBookmarks-iOSUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		82C446B41CA2D1200041E028 /* MapBookmarks_iOSUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MapBookmarks_iOSUITests.m; sourceTree = "<group>"; };
+		82C446B61CA2D1200041E028 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		82C446CB1CA2D99F0041E028 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		82F05FF91CA3E9B8000A7DED /* MBMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBMainViewController.h; sourceTree = "<group>"; };
+		82F05FFA1CA3E9B8000A7DED /* MBMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBMainViewController.m; sourceTree = "<group>"; };
+		82F060031CA3FFB3000A7DED /* MBBookmarksListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MBBookmarksListViewController.h; path = ViewControllers/BookmarksListViewController/MBBookmarksListViewController.h; sourceTree = "<group>"; };
+		82F060041CA3FFB3000A7DED /* MBBookmarksListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MBBookmarksListViewController.m; path = ViewControllers/BookmarksListViewController/MBBookmarksListViewController.m; sourceTree = "<group>"; };
+		82F060061CA3FFD1000A7DED /* MBBookmarkDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MBBookmarkDetailViewController.h; path = ViewControllers/BookmarkDetailViewController/MBBookmarkDetailViewController.h; sourceTree = "<group>"; };
+		82F060071CA3FFD1000A7DED /* MBBookmarkDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MBBookmarkDetailViewController.m; path = ViewControllers/BookmarkDetailViewController/MBBookmarkDetailViewController.m; sourceTree = "<group>"; };
+		82F060091CA402C5000A7DED /* Bookmark+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Bookmark+CoreDataProperties.h"; path = "Model/Bookmark+CoreDataProperties.h"; sourceTree = "<group>"; };
+		82F0600A1CA402C5000A7DED /* Bookmark+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Bookmark+CoreDataProperties.m"; path = "Model/Bookmark+CoreDataProperties.m"; sourceTree = "<group>"; };
+		82F0600B1CA402C5000A7DED /* Bookmark.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Bookmark.h; path = Model/Bookmark.h; sourceTree = "<group>"; };
+		82F0600C1CA402C5000A7DED /* Bookmark.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Bookmark.m; path = Model/Bookmark.m; sourceTree = "<group>"; };
+		82F060101CA42DF4000A7DED /* MBCustomCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MBCustomCell.h; path = Common/CustomCell/MBCustomCell.h; sourceTree = "<group>"; };
+		82F060111CA42DF4000A7DED /* MBCustomCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MBCustomCell.m; path = Common/CustomCell/MBCustomCell.m; sourceTree = "<group>"; };
+		82F060141CA44746000A7DED /* MBDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MBDataManager.h; path = Common/DataManager/MBDataManager.h; sourceTree = "<group>"; };
+		82F060151CA44746000A7DED /* MBDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MBDataManager.m; path = Common/DataManager/MBDataManager.m; sourceTree = "<group>"; };
+		82F060181CA46020000A7DED /* MBParsedBookmark.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MBParsedBookmark.h; path = Common/ParsedBookmark/MBParsedBookmark.h; sourceTree = "<group>"; };
+		82F060191CA46020000A7DED /* MBParsedBookmark.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MBParsedBookmark.m; path = Common/ParsedBookmark/MBParsedBookmark.m; sourceTree = "<group>"; };
+		84ACD5631CA4A8DE00C3245A /* UIView+MBAnnotationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIView+MBAnnotationView.h"; path = "Common/UIView+MKAnnotationView/UIView+MBAnnotationView.h"; sourceTree = "<group>"; };
+		84ACD5641CA4A8DE00C3245A /* UIView+MBAnnotationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIView+MBAnnotationView.m"; path = "Common/UIView+MKAnnotationView/UIView+MBAnnotationView.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		82C446861CA2D1200041E028 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82C446CC1CA2D99F0041E028 /* MapKit.framework in Frameworks */,
+				2A1A960811561BA78EE3E429 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82C446A21CA2D1200041E028 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82C446AD1CA2D1200041E028 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		15504E1B9B63B4A446F2C442 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				43C5A67BDE7160CB4BD4832E /* Pods.debug.xcconfig */,
+				3ECFCA91CC7EE3B988CCC500 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		4034EEEBC9716F4B620D810E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				82C446CB1CA2D99F0041E028 /* MapKit.framework */,
+				5B2621A848D2FAB01686F202 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		821EE5801CA5269F00DD21BD /* TableOfBookmarks */ = {
+			isa = PBXGroup;
+			children = (
+				821EE5811CA5270900DD21BD /* MBTableOfBookmarksViewController.h */,
+				821EE5821CA5270900DD21BD /* MBTableOfBookmarksViewController.m */,
+			);
+			name = TableOfBookmarks;
+			sourceTree = "<group>";
+		};
+		82C446801CA2D1200041E028 = {
+			isa = PBXGroup;
+			children = (
+				82C4468B1CA2D1200041E028 /* MapBookmarks-iOS */,
+				82C446A81CA2D1200041E028 /* MapBookmarks-iOSTests */,
+				82C446B31CA2D1200041E028 /* MapBookmarks-iOSUITests */,
+				82C4468A1CA2D1200041E028 /* Products */,
+				15504E1B9B63B4A446F2C442 /* Pods */,
+				4034EEEBC9716F4B620D810E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		82C4468A1CA2D1200041E028 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				82C446891CA2D1200041E028 /* MapBookmarks-iOS.app */,
+				82C446A51CA2D1200041E028 /* MapBookmarks-iOSTests.xctest */,
+				82C446B01CA2D1200041E028 /* MapBookmarks-iOSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		82C4468B1CA2D1200041E028 /* MapBookmarks-iOS */ = {
+			isa = PBXGroup;
+			children = (
+				82C446C71CA2D4070041E028 /* Model */,
+				82C446C61CA2D3E20041E028 /* Common */,
+				82C446C21CA2D3AE0041E028 /* ViewControllers */,
+				82C4468F1CA2D1200041E028 /* AppDelegate.h */,
+				82C446901CA2D1200041E028 /* AppDelegate.m */,
+				82C4469B1CA2D1200041E028 /* Assets.xcassets */,
+				823F38CB1CB139C30038D1AD /* Main.storyboard */,
+				82C4469D1CA2D1200041E028 /* LaunchScreen.storyboard */,
+				82C446A01CA2D1200041E028 /* Info.plist */,
+				82C4468C1CA2D1200041E028 /* Supporting Files */,
+			);
+			path = "MapBookmarks-iOS";
+			sourceTree = "<group>";
+		};
+		82C4468C1CA2D1200041E028 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				82C4468D1CA2D1200041E028 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		82C446A81CA2D1200041E028 /* MapBookmarks-iOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				82C446A91CA2D1200041E028 /* MapBookmarks_iOSTests.m */,
+				82C446AB1CA2D1200041E028 /* Info.plist */,
+			);
+			path = "MapBookmarks-iOSTests";
+			sourceTree = "<group>";
+		};
+		82C446B31CA2D1200041E028 /* MapBookmarks-iOSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				82C446B41CA2D1200041E028 /* MapBookmarks_iOSUITests.m */,
+				82C446B61CA2D1200041E028 /* Info.plist */,
+			);
+			path = "MapBookmarks-iOSUITests";
+			sourceTree = "<group>";
+		};
+		82C446C21CA2D3AE0041E028 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				821EE5801CA5269F00DD21BD /* TableOfBookmarks */,
+				82F05FF81CA3E9B8000A7DED /* MainViewController */,
+				82C446C51CA2D3DA0041E028 /* BookmarksListViewController */,
+				82C446C41CA2D3C80041E028 /* BookmarkDetailViewController */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		82C446C41CA2D3C80041E028 /* BookmarkDetailViewController */ = {
+			isa = PBXGroup;
+			children = (
+				82F060061CA3FFD1000A7DED /* MBBookmarkDetailViewController.h */,
+				82F060071CA3FFD1000A7DED /* MBBookmarkDetailViewController.m */,
+			);
+			name = BookmarkDetailViewController;
+			sourceTree = "<group>";
+		};
+		82C446C51CA2D3DA0041E028 /* BookmarksListViewController */ = {
+			isa = PBXGroup;
+			children = (
+				82F060031CA3FFB3000A7DED /* MBBookmarksListViewController.h */,
+				82F060041CA3FFB3000A7DED /* MBBookmarksListViewController.m */,
+			);
+			name = BookmarksListViewController;
+			sourceTree = "<group>";
+		};
+		82C446C61CA2D3E20041E028 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				84ACD5621CA4A74C00C3245A /* UIView+MKAnnotationView */,
+				82F060171CA45FA5000A7DED /* ParsedBookmark */,
+				82F060131CA446FB000A7DED /* DataManager */,
+				82F0600F1CA42DA0000A7DED /* CustomCell */,
+			);
+			name = Common;
+			sourceTree = "<group>";
+		};
+		82C446C71CA2D4070041E028 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				82C446981CA2D1200041E028 /* MapBookmarks_iOS.xcdatamodeld */,
+				82F060091CA402C5000A7DED /* Bookmark+CoreDataProperties.h */,
+				82F0600A1CA402C5000A7DED /* Bookmark+CoreDataProperties.m */,
+				82F0600B1CA402C5000A7DED /* Bookmark.h */,
+				82F0600C1CA402C5000A7DED /* Bookmark.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		82F05FF81CA3E9B8000A7DED /* MainViewController */ = {
+			isa = PBXGroup;
+			children = (
+				82F05FF91CA3E9B8000A7DED /* MBMainViewController.h */,
+				82F05FFA1CA3E9B8000A7DED /* MBMainViewController.m */,
+			);
+			name = MainViewController;
+			path = ViewControllers/MainViewController;
+			sourceTree = "<group>";
+		};
+		82F0600F1CA42DA0000A7DED /* CustomCell */ = {
+			isa = PBXGroup;
+			children = (
+				82F060101CA42DF4000A7DED /* MBCustomCell.h */,
+				82F060111CA42DF4000A7DED /* MBCustomCell.m */,
+			);
+			name = CustomCell;
+			sourceTree = "<group>";
+		};
+		82F060131CA446FB000A7DED /* DataManager */ = {
+			isa = PBXGroup;
+			children = (
+				82F060141CA44746000A7DED /* MBDataManager.h */,
+				82F060151CA44746000A7DED /* MBDataManager.m */,
+			);
+			name = DataManager;
+			sourceTree = "<group>";
+		};
+		82F060171CA45FA5000A7DED /* ParsedBookmark */ = {
+			isa = PBXGroup;
+			children = (
+				82F060181CA46020000A7DED /* MBParsedBookmark.h */,
+				82F060191CA46020000A7DED /* MBParsedBookmark.m */,
+			);
+			name = ParsedBookmark;
+			sourceTree = "<group>";
+		};
+		84ACD5621CA4A74C00C3245A /* UIView+MKAnnotationView */ = {
+			isa = PBXGroup;
+			children = (
+				84ACD5631CA4A8DE00C3245A /* UIView+MBAnnotationView.h */,
+				84ACD5641CA4A8DE00C3245A /* UIView+MBAnnotationView.m */,
+			);
+			name = "UIView+MKAnnotationView";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		82C446881CA2D1200041E028 /* MapBookmarks-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82C446B91CA2D1200041E028 /* Build configuration list for PBXNativeTarget "MapBookmarks-iOS" */;
+			buildPhases = (
+				E20C95DBE16BA73846AFCD59 /* Check Pods Manifest.lock */,
+				82C446851CA2D1200041E028 /* Sources */,
+				82C446861CA2D1200041E028 /* Frameworks */,
+				82C446871CA2D1200041E028 /* Resources */,
+				30E173755C72CD9A8604D4FA /* Embed Pods Frameworks */,
+				CE173E98FE824A71845E8806 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MapBookmarks-iOS";
+			productName = "MapBookmarks-iOS";
+			productReference = 82C446891CA2D1200041E028 /* MapBookmarks-iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		82C446A41CA2D1200041E028 /* MapBookmarks-iOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82C446BC1CA2D1200041E028 /* Build configuration list for PBXNativeTarget "MapBookmarks-iOSTests" */;
+			buildPhases = (
+				82C446A11CA2D1200041E028 /* Sources */,
+				82C446A21CA2D1200041E028 /* Frameworks */,
+				82C446A31CA2D1200041E028 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				82C446A71CA2D1200041E028 /* PBXTargetDependency */,
+			);
+			name = "MapBookmarks-iOSTests";
+			productName = "MapBookmarks-iOSTests";
+			productReference = 82C446A51CA2D1200041E028 /* MapBookmarks-iOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		82C446AF1CA2D1200041E028 /* MapBookmarks-iOSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82C446BF1CA2D1200041E028 /* Build configuration list for PBXNativeTarget "MapBookmarks-iOSUITests" */;
+			buildPhases = (
+				82C446AC1CA2D1200041E028 /* Sources */,
+				82C446AD1CA2D1200041E028 /* Frameworks */,
+				82C446AE1CA2D1200041E028 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				82C446B21CA2D1200041E028 /* PBXTargetDependency */,
+			);
+			name = "MapBookmarks-iOSUITests";
+			productName = "MapBookmarks-iOSUITests";
+			productReference = 82C446B01CA2D1200041E028 /* MapBookmarks-iOSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		82C446811CA2D1200041E028 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = MB;
+				KnownAssetTags = (
+					New,
+				);
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Alex;
+				TargetAttributes = {
+					82C446881CA2D1200041E028 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					82C446A41CA2D1200041E028 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 82C446881CA2D1200041E028;
+					};
+					82C446AF1CA2D1200041E028 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 82C446881CA2D1200041E028;
+					};
+				};
+			};
+			buildConfigurationList = 82C446841CA2D1200041E028 /* Build configuration list for PBXProject "MapBookmarks-iOS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 82C446801CA2D1200041E028;
+			productRefGroup = 82C4468A1CA2D1200041E028 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				82C446881CA2D1200041E028 /* MapBookmarks-iOS */,
+				82C446A41CA2D1200041E028 /* MapBookmarks-iOSTests */,
+				82C446AF1CA2D1200041E028 /* MapBookmarks-iOSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		82C446871CA2D1200041E028 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				823F38CD1CB139C30038D1AD /* Main.storyboard in Resources */,
+				82C4469F1CA2D1200041E028 /* LaunchScreen.storyboard in Resources */,
+				82C4469C1CA2D1200041E028 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82C446A31CA2D1200041E028 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82C446AE1CA2D1200041E028 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		30E173755C72CD9A8604D4FA /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CE173E98FE824A71845E8806 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E20C95DBE16BA73846AFCD59 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		82C446851CA2D1200041E028 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82F05FFB1CA3E9B8000A7DED /* MBMainViewController.m in Sources */,
+				84ACD5651CA4A8DE00C3245A /* UIView+MBAnnotationView.m in Sources */,
+				82F0600D1CA402C5000A7DED /* Bookmark+CoreDataProperties.m in Sources */,
+				82C446911CA2D1200041E028 /* AppDelegate.m in Sources */,
+				82F0600E1CA402C5000A7DED /* Bookmark.m in Sources */,
+				82F060121CA42DF4000A7DED /* MBCustomCell.m in Sources */,
+				821EE5831CA5270900DD21BD /* MBTableOfBookmarksViewController.m in Sources */,
+				82C4469A1CA2D1200041E028 /* MapBookmarks_iOS.xcdatamodeld in Sources */,
+				82F060051CA3FFB3000A7DED /* MBBookmarksListViewController.m in Sources */,
+				82F060081CA3FFD1000A7DED /* MBBookmarkDetailViewController.m in Sources */,
+				82F0601A1CA46020000A7DED /* MBParsedBookmark.m in Sources */,
+				82F060161CA44746000A7DED /* MBDataManager.m in Sources */,
+				82C4468E1CA2D1200041E028 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82C446A11CA2D1200041E028 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82C446AA1CA2D1200041E028 /* MapBookmarks_iOSTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82C446AC1CA2D1200041E028 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82C446B51CA2D1200041E028 /* MapBookmarks_iOSUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		82C446A71CA2D1200041E028 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 82C446881CA2D1200041E028 /* MapBookmarks-iOS */;
+			targetProxy = 82C446A61CA2D1200041E028 /* PBXContainerItemProxy */;
+		};
+		82C446B21CA2D1200041E028 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 82C446881CA2D1200041E028 /* MapBookmarks-iOS */;
+			targetProxy = 82C446B11CA2D1200041E028 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		823F38CB1CB139C30038D1AD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				823F38CC1CB139C30038D1AD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		82C4469D1CA2D1200041E028 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				82C4469E1CA2D1200041E028 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		82C446B71CA2D1200041E028 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		82C446B81CA2D1200041E028 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		82C446BA1CA2D1200041E028 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 43C5A67BDE7160CB4BD4832E /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "MapBookmarks-iOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "CR.MapBookmarks-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		82C446BB1CA2D1200041E028 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3ECFCA91CC7EE3B988CCC500 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "MapBookmarks-iOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "CR.MapBookmarks-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		82C446BD1CA2D1200041E028 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "MapBookmarks-iOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "CR.MapBookmarks-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MapBookmarks-iOS.app/MapBookmarks-iOS";
+			};
+			name = Debug;
+		};
+		82C446BE1CA2D1200041E028 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "MapBookmarks-iOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "CR.MapBookmarks-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MapBookmarks-iOS.app/MapBookmarks-iOS";
+			};
+			name = Release;
+		};
+		82C446C01CA2D1200041E028 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "MapBookmarks-iOSUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "CR.MapBookmarks-iOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "MapBookmarks-iOS";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		82C446C11CA2D1200041E028 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "MapBookmarks-iOSUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "CR.MapBookmarks-iOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "MapBookmarks-iOS";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		82C446841CA2D1200041E028 /* Build configuration list for PBXProject "MapBookmarks-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82C446B71CA2D1200041E028 /* Debug */,
+				82C446B81CA2D1200041E028 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		82C446B91CA2D1200041E028 /* Build configuration list for PBXNativeTarget "MapBookmarks-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82C446BA1CA2D1200041E028 /* Debug */,
+				82C446BB1CA2D1200041E028 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		82C446BC1CA2D1200041E028 /* Build configuration list for PBXNativeTarget "MapBookmarks-iOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82C446BD1CA2D1200041E028 /* Debug */,
+				82C446BE1CA2D1200041E028 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		82C446BF1CA2D1200041E028 /* Build configuration list for PBXNativeTarget "MapBookmarks-iOSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82C446C01CA2D1200041E028 /* Debug */,
+				82C446C11CA2D1200041E028 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		82C446981CA2D1200041E028 /* MapBookmarks_iOS.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				82C446991CA2D1200041E028 /* MapBookmarks_iOS.xcdatamodel */,
+			);
+			currentVersion = 82C446991CA2D1200041E028 /* MapBookmarks_iOS.xcdatamodel */;
+			path = MapBookmarks_iOS.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 82C446811CA2D1200041E028 /* Project object */;
+}
